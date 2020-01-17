@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_Clear" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="AutoComplete_NoData" xml:space="preserve">
+    <value>Keine Daten</value>
+  </data>
+  <data name="Calendar_Choose_Decade" xml:space="preserve">
+    <value>Ein Jahrzehnt wählen</value>
+  </data>
+  <data name="Calendar_Choose_Month" xml:space="preserve">
+    <value>Ein Monat wählen</value>
+  </data>
+  <data name="Calendar_Choose_Year" xml:space="preserve">
+    <value>Ein Jahr wählen</value>
+  </data>
+  <data name="Calendar_GoToNext" xml:space="preserve">
+    <value>Zur nächsten Periode</value>
+  </data>
+  <data name="Calendar_GoToPrevious" xml:space="preserve">
+    <value>Zur vorherigen Periode</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>Heute</value>
+  </data>
+  <data name="ComboBox_Clear" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ComboBox_NoData" xml:space="preserve">
+    <value>Keine Daten</value>
+  </data>
+  <data name="DateTimePicker_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="DateTimePicker_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="DateTimePicker_Set" xml:space="preserve">
+    <value>Setzen</value>
+  </data>
+  <data name="DateTimePicker_Time" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="DropDownList_NoData" xml:space="preserve">
+    <value>Keine Daten</value>
+  </data>
+  <data name="Filter_AdditionalOperator" xml:space="preserve">
+    <value>Zusätzlicher Operator</value>
+  </data>
+  <data name="Filter_AdditionalValue" xml:space="preserve">
+    <value>Zusätzlicher Wert</value>
+  </data>
+  <data name="Filter_All" xml:space="preserve">
+    <value>(Alle)</value>
+  </data>
+  <data name="Filter_And" xml:space="preserve">
+    <value>Und</value>
+  </data>
+  <data name="Filter_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Filter_Clear" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Filter_DateIsEqualTo" xml:space="preserve">
+    <value>Ist gleich</value>
+  </data>
+  <data name="Filter_DateIsGreaterThan" xml:space="preserve">
+    <value>Ist später als</value>
+  </data>
+  <data name="Filter_DateIsGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Ist später als oder gleich</value>
+  </data>
+  <data name="Filter_DateIsLessThan" xml:space="preserve">
+    <value>Ist früher als</value>
+  </data>
+  <data name="Filter_DateIsLessThanOrEqualTo" xml:space="preserve">
+    <value>Ist früher als oder gleich</value>
+  </data>
+  <data name="Filter_DateIsNotEqualTo" xml:space="preserve">
+    <value>Ist nicht gleich</value>
+  </data>
+  <data name="Filter_DateIsNotNull" xml:space="preserve">
+    <value>Ist nicht Null</value>
+  </data>
+  <data name="Filter_DateIsNull" xml:space="preserve">
+    <value>Ist Null</value>
+  </data>
+  <data name="Filter_EnumIsEqualTo" xml:space="preserve">
+    <value>Ist gleich</value>
+  </data>
+  <data name="Filter_EnumIsNotEqualTo" xml:space="preserve">
+    <value>Ist nicht gleich</value>
+  </data>
+  <data name="Filter_EnumIsNotNull" xml:space="preserve">
+    <value>Ist nicht Null</value>
+  </data>
+  <data name="Filter_EnumIsNull" xml:space="preserve">
+    <value>Ist Null</value>
+  </data>
+  <data name="Filter_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Filter_Info" xml:space="preserve">
+    <value>Elemente mit folgendem Wert anzeigen:</value>
+  </data>
+  <data name="Filter_IsFalse" xml:space="preserve">
+    <value>Ist falsch</value>
+  </data>
+  <data name="Filter_IsTrue" xml:space="preserve">
+    <value>Ist wahr</value>
+  </data>
+  <data name="Filter_Logic" xml:space="preserve">
+    <value>Filterlogik</value>
+  </data>
+  <data name="Filter_NumberIsEqualTo" xml:space="preserve">
+    <value>Ist gleich</value>
+  </data>
+  <data name="Filter_NumberIsGreaterThan" xml:space="preserve">
+    <value>Ist größer als</value>
+  </data>
+  <data name="Filter_NumberIsGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Ist größer als oder gleich</value>
+  </data>
+  <data name="Filter_NumberIsLessThan" xml:space="preserve">
+    <value>Ist kleiner als</value>
+  </data>
+  <data name="Filter_NumberIsLessThanOrEqualTo" xml:space="preserve">
+    <value>Ist kleiner als oder gleich</value>
+  </data>
+  <data name="Filter_NumberIsNotEqualTo" xml:space="preserve">
+    <value>Ist nicht gleich</value>
+  </data>
+  <data name="Filter_NumberIsNotNull" xml:space="preserve">
+    <value>Ist nicht Null</value>
+  </data>
+  <data name="Filter_NumberIsNull" xml:space="preserve">
+    <value>Ist Null</value>
+  </data>
+  <data name="Filter_Operator" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="Filter_Or" xml:space="preserve">
+    <value>Oder</value>
+  </data>
+  <data name="Filter_Search" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="Filter_SelectedItemsFormat" xml:space="preserve">
+    <value>{0} ausgewählte Elemente</value>
+  </data>
+  <data name="Filter_SelectValue" xml:space="preserve">
+    <value>-Wert auswählen-</value>
+  </data>
+  <data name="Filter_StringContains" xml:space="preserve">
+    <value>Enthält</value>
+  </data>
+  <data name="Filter_StringDoesNotContain" xml:space="preserve">
+    <value>Enthält nicht</value>
+  </data>
+  <data name="Filter_StringEndsWith" xml:space="preserve">
+    <value>Endet mit</value>
+  </data>
+  <data name="Filter_StringIsEmpty" xml:space="preserve">
+    <value>Ist leer</value>
+  </data>
+  <data name="Filter_StringIsEqualTo" xml:space="preserve">
+    <value>Ist gleich</value>
+  </data>
+  <data name="Filter_StringIsNotEmpty" xml:space="preserve">
+    <value>Ist nicht leer</value>
+  </data>
+  <data name="Filter_StringIsNotEqualTo" xml:space="preserve">
+    <value>Ist nicht gleich</value>
+  </data>
+  <data name="Filter_StringIsNotNull" xml:space="preserve">
+    <value>Ist nicht Null</value>
+  </data>
+  <data name="Filter_StringIsNotNullOrEmpty" xml:space="preserve">
+    <value>Hat einen Wert</value>
+  </data>
+  <data name="Filter_StringIsNull" xml:space="preserve">
+    <value>Ist Null</value>
+  </data>
+  <data name="Filter_StringIsNullOrEmpty" xml:space="preserve">
+    <value>Hat keinen Wert</value>
+  </data>
+  <data name="Filter_StringStartsWith" xml:space="preserve">
+    <value>Startet mit</value>
+  </data>
+  <data name="Filter_Title" xml:space="preserve">
+    <value>Elemente mit folgendem Wert anzeigen:</value>
+  </data>
+  <data name="Filter_Value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Grid_CancelChanges" xml:space="preserve">
+    <value>Änderungen verwerfen</value>
+  </data>
+  <data name="Grid_CancelDelete" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Grid_CheckAll" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="Grid_Columns" xml:space="preserve">
+    <value>Spalten</value>
+  </data>
+  <data name="Grid_ColumnSettings" xml:space="preserve">
+    <value>Spalteneinstellungen</value>
+  </data>
+  <data name="Grid_Confirmation" xml:space="preserve">
+    <value>Möchten Sie diesen Datensatz wirklich löschen?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Grid_Create" xml:space="preserve">
+    <value>Neuen Datensatz hinzufügen</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Grid_Done" xml:space="preserve">
+    <value>Erledigt</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Editieren</value>
+  </data>
+  <data name="Grid_Excel" xml:space="preserve">
+    <value>Nach Excel exportieren</value>
+  </data>
+  <data name="Grid_Lock" xml:space="preserve">
+    <value>Sperren</value>
+  </data>
+  <data name="Grid_Pdf" xml:space="preserve">
+    <value>Als PDF exportieren</value>
+  </data>
+  <data name="Grid_SaveChanges" xml:space="preserve">
+    <value>Änderungen speichern</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Suche...</value>
+  </data>
+  <data name="Grid_Select" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Aufsteigend sortieren</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Absteigend sortieren</value>
+  </data>
+  <data name="Grid_Unlock" xml:space="preserve">
+    <value>Entsperren</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Updaten</value>
+  </data>
+  <data name="Group_Empty" xml:space="preserve">
+    <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren</value>
+  </data>
+  <data name="NumericTextBox_DecreaseValue" xml:space="preserve">
+    <value>Wert verringern</value>
+  </data>
+  <data name="NumericTextBox_IncreaseValue" xml:space="preserve">
+    <value>Wert erhöhen</value>
+  </data>
+  <data name="Pager_Display" xml:space="preserve">
+    <value>{0} - {1} von {2} Elementen</value>
+  </data>
+  <data name="Pager_Empty" xml:space="preserve">
+    <value>Keine Elemente vorhanden</value>
+  </data>
+  <data name="Pager_First" xml:space="preserve">
+    <value>Zur ersten Seite</value>
+  </data>
+  <data name="Pager_ItemsPerPage" xml:space="preserve">
+    <value>Elemente pro Seite</value>
+  </data>
+  <data name="Pager_Last" xml:space="preserve">
+    <value>Zur letzten Seite</value>
+  </data>
+  <data name="Pager_MorePages" xml:space="preserve">
+    <value>Weitere Seiten</value>
+  </data>
+  <data name="Pager_Next" xml:space="preserve">
+    <value>Zur nächsten Seite</value>
+  </data>
+  <data name="Pager_Of" xml:space="preserve">
+    <value>von {0}</value>
+  </data>
+  <data name="Pager_Page" xml:space="preserve">
+    <value>Seite</value>
+  </data>
+  <data name="Pager_Previous" xml:space="preserve">
+    <value>Zur vorherigen Seite</value>
+  </data>
+  <data name="Pager_Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="Scheduler_AllDay" xml:space="preserve">
+    <value>den ganzen Tag</value>
+  </data>
+  <data name="Scheduler_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Scheduler_Day" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Scheduler_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Scheduler_Editor_Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Scheduler_Editor_EditorTitle" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Scheduler_Editor_End" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="Scheduler_Editor_EndTimeRequiredValidationMessage" xml:space="preserve">
+    <value>Eine Endzeit ist erforderlich.</value>
+  </data>
+  <data name="Scheduler_Editor_EndTimeValueValidationMessage" xml:space="preserve">
+    <value>Die Endzeit muss nach der Startzeit liegen.</value>
+  </data>
+  <data name="Scheduler_Editor_IsAllDay" xml:space="preserve">
+    <value>Ganztägiges Ereignis</value>
+  </data>
+  <data name="Scheduler_Editor_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Scheduler_Editor_StartTimeRequiredValidationMessage" xml:space="preserve">
+    <value>Startzeit ist erforderlich.</value>
+  </data>
+  <data name="Scheduler_Editor_StartTimeValueValidationMessage" xml:space="preserve">
+    <value>Die Startzeit muss vor der Endzeit liegen.</value>
+  </data>
+  <data name="Scheduler_Editor_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Scheduler_Editor_TitleRequiredValidationMessage" xml:space="preserve">
+    <value>Titel ist erforderlich.</value>
+  </data>
+  <data name="Scheduler_MultiDay" xml:space="preserve">
+    <value>Mehrtages</value>
+  </data>
+  <data name="Scheduler_Next" xml:space="preserve">
+    <value>Nächstes</value>
+  </data>
+  <data name="Scheduler_Previous" xml:space="preserve">
+    <value>Vorheriges</value>
+  </data>
+  <data name="Scheduler_Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Scheduler_ShowFullDay" xml:space="preserve">
+    <value>Zeige ganzen Tag</value>
+  </data>
+  <data name="Scheduler_ShowWorkDay" xml:space="preserve">
+    <value>Geschäftszeiten anzeigen</value>
+  </data>
+  <data name="Scheduler_Today" xml:space="preserve">
+    <value>Heute</value>
+  </data>
+  <data name="Scheduler_Week" xml:space="preserve">
+    <value>Woche</value>
+  </data>
+  <data name="TimePicker_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="TimePicker_Day" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="TimePicker_DayPeriod" xml:space="preserve">
+    <value>AM/PM</value>
+  </data>
+  <data name="TimePicker_Era" xml:space="preserve">
+    <value>Epoche</value>
+  </data>
+  <data name="TimePicker_Hour" xml:space="preserve">
+    <value>Stunde</value>
+  </data>
+  <data name="TimePicker_Minute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="TimePicker_Month" xml:space="preserve">
+    <value>Monat</value>
+  </data>
+  <data name="TimePicker_Now" xml:space="preserve">
+    <value>Jetzt</value>
+  </data>
+  <data name="TimePicker_Quarter" xml:space="preserve">
+    <value>Quartal</value>
+  </data>
+  <data name="TimePicker_Second" xml:space="preserve">
+    <value>Sekunde</value>
+  </data>
+  <data name="TimePicker_Set" xml:space="preserve">
+    <value>Setzen</value>
+  </data>
+  <data name="TimePicker_ToggleClock" xml:space="preserve">
+    <value>Uhr umschalten</value>
+  </data>
+  <data name="TimePicker_WeekDay" xml:space="preserve">
+    <value>Wochentag</value>
+  </data>
+  <data name="TimePicker_Year" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
+  <data name="TimePicker_Zone" xml:space="preserve">
+    <value>Zeitzone</value>
+  </data>
+</root>
