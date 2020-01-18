@@ -162,12 +162,6 @@
   <data name="DropDownList_NoData" xml:space="preserve">
     <value>Keine Daten</value>
   </data>
-  <data name="Filter_AdditionalOperator" xml:space="preserve">
-    <value>Zusätzlicher Operator</value>
-  </data>
-  <data name="Filter_AdditionalValue" xml:space="preserve">
-    <value>Zusätzlicher Wert</value>
-  </data>
   <data name="Filter_All" xml:space="preserve">
     <value>(Alle)</value>
   </data>
@@ -219,17 +213,11 @@
   <data name="Filter_Filter" xml:space="preserve">
     <value>Filter</value>
   </data>
-  <data name="Filter_Info" xml:space="preserve">
-    <value>Elemente mit folgendem Wert anzeigen:</value>
-  </data>
   <data name="Filter_IsFalse" xml:space="preserve">
     <value>Ist falsch</value>
   </data>
   <data name="Filter_IsTrue" xml:space="preserve">
     <value>Ist wahr</value>
-  </data>
-  <data name="Filter_Logic" xml:space="preserve">
-    <value>Filterlogik</value>
   </data>
   <data name="Filter_NumberIsEqualTo" xml:space="preserve">
     <value>Ist gleich</value>
@@ -255,20 +243,8 @@
   <data name="Filter_NumberIsNull" xml:space="preserve">
     <value>Ist Null</value>
   </data>
-  <data name="Filter_Operator" xml:space="preserve">
-    <value>Operator</value>
-  </data>
   <data name="Filter_Or" xml:space="preserve">
     <value>Oder</value>
-  </data>
-  <data name="Filter_Search" xml:space="preserve">
-    <value>Suche</value>
-  </data>
-  <data name="Filter_SelectedItemsFormat" xml:space="preserve">
-    <value>{0} ausgewählte Elemente</value>
-  </data>
-  <data name="Filter_SelectValue" xml:space="preserve">
-    <value>-Wert auswählen-</value>
   </data>
   <data name="Filter_StringContains" xml:space="preserve">
     <value>Enthält</value>
@@ -306,35 +282,11 @@
   <data name="Filter_StringStartsWith" xml:space="preserve">
     <value>Startet mit</value>
   </data>
-  <data name="Filter_Title" xml:space="preserve">
-    <value>Elemente mit folgendem Wert anzeigen:</value>
-  </data>
-  <data name="Filter_Value" xml:space="preserve">
-    <value>Wert</value>
-  </data>
   <data name="Grid_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
-  <data name="Grid_CancelChanges" xml:space="preserve">
-    <value>Änderungen verwerfen</value>
-  </data>
   <data name="Grid_CancelDelete" xml:space="preserve">
     <value>Abbrechen</value>
-  </data>
-  <data name="Grid_CheckAll" xml:space="preserve">
-    <value>Alle auswählen</value>
-  </data>
-  <data name="Grid_Columns" xml:space="preserve">
-    <value>Spalten</value>
-  </data>
-  <data name="Grid_ColumnSettings" xml:space="preserve">
-    <value>Spalteneinstellungen</value>
-  </data>
-  <data name="Grid_Confirmation" xml:space="preserve">
-    <value>Möchten Sie diesen Datensatz wirklich löschen?</value>
-  </data>
-  <data name="Grid_ConfirmDelete" xml:space="preserve">
-    <value>Löschen</value>
   </data>
   <data name="Grid_Create" xml:space="preserve">
     <value>Neuen Datensatz hinzufügen</value>
@@ -342,38 +294,14 @@
   <data name="Grid_Delete" xml:space="preserve">
     <value>Löschen</value>
   </data>
-  <data name="Grid_Done" xml:space="preserve">
-    <value>Erledigt</value>
-  </data>
   <data name="Grid_Edit" xml:space="preserve">
     <value>Editieren</value>
-  </data>
-  <data name="Grid_Excel" xml:space="preserve">
-    <value>Nach Excel exportieren</value>
-  </data>
-  <data name="Grid_Lock" xml:space="preserve">
-    <value>Sperren</value>
-  </data>
-  <data name="Grid_Pdf" xml:space="preserve">
-    <value>Als PDF exportieren</value>
-  </data>
-  <data name="Grid_SaveChanges" xml:space="preserve">
-    <value>Änderungen speichern</value>
-  </data>
-  <data name="Grid_Search" xml:space="preserve">
-    <value>Suche...</value>
-  </data>
-  <data name="Grid_Select" xml:space="preserve">
-    <value>Auswählen</value>
   </data>
   <data name="Grid_SortAscending" xml:space="preserve">
     <value>Aufsteigend sortieren</value>
   </data>
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Absteigend sortieren</value>
-  </data>
-  <data name="Grid_Unlock" xml:space="preserve">
-    <value>Entsperren</value>
   </data>
   <data name="Grid_Update" xml:space="preserve">
     <value>Updaten</value>
