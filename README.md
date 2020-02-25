@@ -1,7 +1,7 @@
 Telerik.Ui.for.Blazor.German.Resources
 ====================================
 
-Telerik.Ui.for.Blazor.German.Resources is a contains resources for the German translation of the [Telerik UI for Blazor](https://www.telerik.com/blazor-ui).
+Telerik.Ui.for.Blazor.German.Resources contains resources for the German translation of the [Telerik UI for Blazor](https://www.telerik.com/blazor-ui).
 The project contains all German translation resources (*.resx) for the Telerik.Ui.for.Blazor versions from 2.5.1+.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/lyes7vi036717pm9?svg=true)](https://ci.appveyor.com/project/SeppPenner/telerik-ui-for-blazor-german-resources)
