@@ -14,6 +14,9 @@ The project contains all German translation resources (*.resx) for the Telerik.U
 ## Basic usage:
 Follow the instructions [here](https://docs.telerik.com/blazor-ui/globalization/localization) or check out their [github examples](https://github.com/telerik/blazor-ui/tree/master/common/localization/).
 
+## Changes from version 2.14.1 to 2.15.0:
+Check out [Changes_2.14.1_to_2.15.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_2.14.1_to_2.15.0.md).
+
 ## Changes from version 2.14.0 to 2.14.1:
 Check out [Changes_2.14.0_to_2.14.1.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_2.14.0_to_2.14.1.md).
 

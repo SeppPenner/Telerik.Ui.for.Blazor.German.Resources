@@ -1,6 +1,7 @@
 Change history
 --------------
 
+* **Version 1.0.6.0 (2020-06-29)** : Added version 2.15.0.
 * **Version 1.0.5.0 (2020-06-08)** : Added version 2.14.1, moved changelog to extra file, updated gitignore file.
 * **Version 1.0.4.0 (2020-05-22)** : Added version 2.14.0.
 * **Version 1.0.3.0 (2020-05-14)** : Added version 2.13.0.
