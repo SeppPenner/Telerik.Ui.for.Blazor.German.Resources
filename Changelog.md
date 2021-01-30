@@ -1,6 +1,7 @@
 Change history
 --------------
 
+* **Version 2.21.1.0 (2021-01-30)**: Added version 2.21.1.
 * **Version 2.21.0.0 (2021-01-20)**: Added version 2.21.0.
 * **Version 2.20.0.0 (2020-11-27)**: Added version 2.20.0.
 * **Version 2.19.0.0 (2020-11-13)**: Added version 2.19.0.
