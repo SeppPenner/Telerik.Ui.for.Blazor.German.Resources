@@ -1,6 +1,6 @@
-# Changes from version 2.5.1 to 2.6.0:
+# Changes from version 2.5.1 to 2.6.0
 
-## Removed items:
+## Removed items
   * Filter_AdditionalOperator
   * Filter_AdditionalValue
   * Filter_Info
@@ -26,5 +26,5 @@
   * Grid_Select
   * Grid_Unlock
 
-## New items:
+## New items
   * None

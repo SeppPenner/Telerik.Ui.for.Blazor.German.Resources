@@ -1,9 +1,9 @@
-# Changes from version 2.16.0 to 2.17.0:
+# Changes from version 2.16.0 to 2.17.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * ColumnMenu_Apply
   * ColumnMenu_ColumnMenu
   * ColumnMenu_Columns

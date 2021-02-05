@@ -1,7 +1,7 @@
-# Changes from version 2.11.0 to 2.12.0:
+# Changes from version 2.11.0 to 2.12.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * None

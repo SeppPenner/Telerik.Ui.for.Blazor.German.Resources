@@ -1,8 +1,8 @@
-# Changes from version 2.7.1 to 2.8.0:
+# Changes from version 2.7.1 to 2.8.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * DateInput_ParsingErrorMessage
   * DateInput_ValidationErrorMessage

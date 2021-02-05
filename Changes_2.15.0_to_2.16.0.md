@@ -1,9 +1,9 @@
-# Changes from version 2.15.0 to 2.16.0:
+# Changes from version 2.15.0 to 2.16.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * Editor_AddColumnAfter
   * Editor_AddColumnBefore
   * Editor_AddRowAfter

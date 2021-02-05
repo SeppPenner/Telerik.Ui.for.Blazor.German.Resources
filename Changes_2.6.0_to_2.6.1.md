@@ -1,7 +1,7 @@
-# Changes from version 2.6.0 to 2.6.1:
+# Changes from version 2.6.0 to 2.6.1
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * None

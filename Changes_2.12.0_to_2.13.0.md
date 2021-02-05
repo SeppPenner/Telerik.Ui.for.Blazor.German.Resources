@@ -1,9 +1,9 @@
-# Changes from version 2.12.0 to 2.13.0:
+# Changes from version 2.12.0 to 2.13.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * Aggregate_Average
   * Aggregate_Count
   * Aggregate_Max

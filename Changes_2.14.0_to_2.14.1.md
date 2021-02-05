@@ -1,7 +1,7 @@
-# Changes from version 2.14.0 to 2.14.1:
+# Changes from version 2.14.0 to 2.14.1
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * None

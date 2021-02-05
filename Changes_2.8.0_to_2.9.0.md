@@ -1,9 +1,9 @@
-# Changes from version 2.8.0 to 2.9.0:
+# Changes from version 2.8.0 to 2.9.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * Scheduler_Editor_Repeat
   * Scheduler_Recurrence_DeleteRecurring
   * Scheduler_Recurrence_DeleteWindowOccurrence

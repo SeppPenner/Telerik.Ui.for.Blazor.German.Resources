@@ -1,7 +1,7 @@
-# Changes from version 2.10.0 to 2.11.0:
+# Changes from version 2.10.0 to 2.11.0
 
-## Removed items:
+## Removed items
   * None
 
-## New items:
+## New items
   * Scheduler_Month
