@@ -1,6 +1,7 @@
 Change history
 --------------
 
+* **Version 2.24.1.0 (2021-06-21)**: Added version 2.24.1.
 * **Version 2.24.0.0 (2021-05-12)**: Added version 2.24.0.
 * **Version 2.23.0.0 (2021-03-31)**: Added version 2.23.0.
 * **Version 2.22.0.0 (2021-02-28)**: Added version 2.22.0.
