@@ -15,12 +15,15 @@ The project contains all German translation resources (*.resx) for the Telerik.U
 Follow the instructions [here](https://docs.telerik.com/blazor-ui/globalization/localization) or check out their [github examples](https://github.com/telerik/blazor-ui/tree/master/common/localization/).
 The latest version of these resources can always be found in [Telerik's Blazor UI localization repository](https://github.com/telerik/blazor-ui-messages), too.
 
-## Changes from version 3.0.0 to 3.0.1
-Check out [Changes_3.0.0_to_3.0.1.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_3.0.0_to_3.0.1.md).
+## Changes from version 3.0.1 to 3.1.0
+Check out [Changes_3.0.1_to_3.1.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_3.0.1_to_3.1.0.md).
 
 <details>
 <summary>Older versions</summary>
 <br>
+
+## Changes from version 3.0.0 to 3.0.1
+Check out [Changes_3.0.0_to_3.0.1.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_3.0.0_to_3.0.1.md).
 
 ## Changes from version 2.30.0 to 3.0.0
 Check out [Changes_2.30.0_to_3.0.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_2.30.0_to_3.0.0.md).
