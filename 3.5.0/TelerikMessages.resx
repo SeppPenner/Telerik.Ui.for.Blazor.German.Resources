@@ -451,7 +451,7 @@
     <value>Download</value>
   </data>
   <data name="FileManager_ContextMenu_Rename" xml:space="preserve">
-    <value>Unbenennen</value>
+    <value>Umbenennen</value>
   </data>
   <data name="FileManager_DetailsPane_DateCreated" xml:space="preserve">
     <value>Erstelldatum</value>
