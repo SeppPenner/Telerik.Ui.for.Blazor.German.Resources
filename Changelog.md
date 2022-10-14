@@ -1,8 +1,17 @@
 Change history
 --------------
 
-* **Version 2.28.0.0 (2022-01-10)**: Added version 2.30.0.
-* **Version 2.28.0.0 (2022-01-10)**: Added version 2.29.0.
+* **Version 3.6.1.0 (2022-10-14)**: Added version 3.6.1.
+* **Version 3.6.0.0 (2022-09-23)**: Added version 3.6.0.
+* **Version 3.5.0.0 (2022-09-23)**: Added version 3.5.0.
+* **Version 3.4.0.0 (2022-09-23)**: Added version 3.4.0.
+* **Version 3.3.0.0 (2022-09-23)**: Added version 3.3.0.
+* **Version 3.2.0.0 (2022-09-23)**: Added version 3.2.0.
+* **Version 3.1.0.0 (2022-09-23)**: Added version 3.1.0.
+* **Version 3.0.1.0 (2022-09-23)**: Added version 3.0.1.
+* **Version 3.0.0.0 (2022-09-23)**: Added version 3.0.0.
+* **Version 2.30.0.0 (2022-01-10)**: Added version 2.30.0.
+* **Version 2.29.0.0 (2022-01-10)**: Added version 2.29.0.
 * **Version 2.28.0.0 (2021-11-03)**: Added version 2.28.0.
 * **Version 2.27.0.0 (2021-09-21)**: Added version 2.27.0.
 * **Version 2.26.0.0 (2021-09-06)**: Added version 2.26.0.
