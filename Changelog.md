@@ -1,6 +1,9 @@
 Change history
 --------------
 
+* **Version 4.1.0.0 (2023-03-23)**: Added version 4.1.0.
+* **Version 4.0.1.0 (2023-03-23)**: Added version 4.0.1.
+* **Version 4.0.0.0 (2023-03-23)**: Added version 4.0.0.
 * **Version 3.7.0.0 (2022-11-10)**: Added version 3.7.0.
 * **Version 3.6.1.0 (2022-10-14)**: Added version 3.6.1.
 * **Version 3.6.0.0 (2022-09-23)**: Added version 3.6.0.
