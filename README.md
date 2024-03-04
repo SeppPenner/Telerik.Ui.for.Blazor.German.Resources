@@ -10,17 +10,23 @@ The project contains all German translation resources (*.resx) for the Telerik.U
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/Telerik.Ui.for.Blazor.German.Resources.svg)](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/badge.svg)](https://snyk.io/test/github/SeppPenner/Telerik.Ui.for.Blazor.German.Resources)
+[![Blogger](https://img.shields.io/badge/Follow_me_on-blogger-orange)](https://franzhuber23.blogspot.de/)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white)](https://patreon.com/SeppPennerOpenSourceDevelopment)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/th070795)
 
 ## Basic usage
 Follow the instructions [here](https://docs.telerik.com/blazor-ui/globalization/localization) or check out their [github examples](https://github.com/telerik/blazor-ui/tree/master/common/localization/).
 The latest version of these resources can always be found in [Telerik's Blazor UI localization repository](https://github.com/telerik/blazor-ui-messages), too.
 
-## Changes from version 4.4.0 to 4.5.0
-Check out [Changes_4.4.0_to_4.5.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_4.4.0_to_4.5.0.md).
+## Changes from version 4.5.0 to 4.6.0
+Check out [Changes_4.5.0_to_4.6.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_4.5.0_to_4.6.0.md).
 
 <details>
 <summary>Older versions</summary>
 <br>
+
+## Changes from version 4.4.0 to 4.5.0
+Check out [Changes_4.4.0_to_4.5.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_4.4.0_to_4.5.0.md).
 
 ## Changes from version 4.3.0 to 4.4.0
 Check out [Changes_4.3.0_to_4.4.0.md](https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources/blob/master/Changes_4.3.0_to_4.4.0.md).
