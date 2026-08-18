@@ -123,9 +123,11 @@ Do not silently "clean up" these, they are existing behaviour:
   configured outside of this repository. There is no `.github` folder and no pipeline file here.
 - **`.gitignore` fits a C# project, not this one.** `bin`, `obj/`, `packages/`, `*.pdb` and so on,
   none of which occurs here. It is inherited from the author's project template, harmless.
-- **The repository is behind upstream.** The newest folder is `5.1.1`, added in March 2024. Telerik
-  has released far beyond that since. Adding the missing versions means fetching each resx from
-  upstream, it cannot be derived from anything in this repository.
+- **The repository is no longer maintained.** The newest folder is `5.1.1` from March 2024, and no
+  further version is added, because the licensed Telerik UI for Blazor packages the resource files
+  come from are not available to the author anymore. The `README.md` says so at the top. Treat
+  "Adding a new Telerik version" above as documentation of how it used to work, not as a task that
+  is waiting to be done.
 
 ## Releasing
 
