@@ -5,4 +5,4 @@
 
 ## New items
   * Dialog_Cancel
-  * Dialog_Ok‎
+  * Dialog_Ok
