@@ -76,6 +76,11 @@ Checks that are worth running after any change to the data:
 | Line endings and BOM survived the edit | CRLF everywhere, BOM only in the resx |
 | README links resolve | every `master/Changes_*.md` link points at a file that exists |
 
+All four checks were run over the whole repository on 2026-08-18: the 53 `Strings.txt` files match
+their resx, and all 52 change lists match the data and carry the right heading. Three change lists
+and one file name had to be corrected for that, see the commits of that day. A fresh finding in one
+of these checks is therefore a new error, not old baggage.
+
 ## File conventions
 
 - **`TelerikMessages.resx`**: UTF-8 **with** BOM, CRLF, two space indentation, standard resx schema
@@ -107,19 +112,13 @@ Do not silently "clean up" these, they are existing behaviour:
   `<data name="...">` in the schema documentation comment at the top of every resx file. A plain
   grep or an XML query over `<data>` picks them up. They are not resource entries and they are not
   in `Strings.txt`.
-- **`Changes_3.7.0_to_4.0.0 .md` has a space in its file name**, before the extension. The
-  `README.md` links to `Changes_3.7.0_to_4.0.0.md` without the space, so that one link is broken on
-  GitHub. Renaming the file fixes it, the link then matches.
-- **`Changelog.md` stops at 4.1.0.0.** The versions `4.2.0` through `5.1.1` were tagged and pushed
-  without a changelog entry. The existing lines use the format
+- **The changelog does not cover the oldest folders.** `2.5.1`, `2.6.0`, `2.6.1`, `2.7.0`, `2.7.1`,
+  `2.10.0` and `2.11.0` have no line of their own, they fall under the `1.0.0.0 (2020-01-17)`
+  release entry from the time the repository had its own version number. `2.8.0` and `2.9.0` share
+  one line, everything from `2.12.0` on has its own. Do not invent lines for the early ones. The
+  format is
   `* **Version 4.1.0.0 (2023-03-23)**: Added version 4.1.0.`, four part version in the text, no
   space before the colon.
-- **`Changes_2.6.1_to_2.7.0.md` carries the wrong heading**, `# Changes from version 2.6.0 to
-  2.6.1`, a copy of the previous file. Its content is correct.
-- **`Changes_2.16.0_to_2.17.0.md` lists `Switch_OffLabel` and `Switch_OnLabel` twice** and is
-  missing `TreeList_Search`, which the data does contain.
-- **`Changes_2.22.0_to_2.23.0.md` ends in an invisible character.** After `Dialog_Ok` follows
-  `U+200E LEFT-TO-RIGHT MARK` (`e2 80 8e`). The key itself is `Dialog_Ok`.
 - **AppVeyor badge without CI in the repository.** `README.md` links an AppVeyor build that is
   configured outside of this repository. There is no `.github` folder and no pipeline file here.
 - **`.gitignore` fits a C# project, not this one.** `bin`, `obj/`, `packages/`, `*.pdb` and so on,
